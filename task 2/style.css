@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    background-color: rgb(20, 17, 17);
+    padding: 40px 20px;
+}
+
+.buttons div {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    font-size: 25px;
+    height: 40px;
+    width: 77px;
+    background-color: rgb(47, 33, 33);
+    color: white;
+    cursor: pointer;
+}
+
+.equalsto {
+    width: 165px;
+}
+
+input {
+    padding: 8px 10px;
+    margin-bottom: 30px;
+    width: 317px;
+    background-color: rgb(47, 33, 33);
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.522);
+    color: white;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: c;
+    gap: 10px;
+}
